@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Personalice la directiva de seguridad de contenido en la etiqueta meta como sea necesario. Agregue "unsafe-inline" a default-src para permitir JavaScript insertado.
+        Para obtener más detalles, consulte http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="css/styleLoggin.css" rel="stylesheet" />
+    <link href="css/alertify.css" rel="stylesheet" />
+    <title>calimodpruebas</title>
+</head>
+<body>
+
+
+
+
+    <div class="login-page">
+        <div class="form">
+
+            <h1>Validar Codigo</h1>
+
+            <label>Codigo de Barra</label>
+            <br />
+            <input id="CodigoBarra" onfocus="this.value=''" />
+            <!--<input type="text" id="nombredeusuario" name="nombredeusuario" placeholder="Usuario" />
+
+    <input type="password" id="clave" name="clave" placeholder="Password" />
+
+    <button id="btnLogin">Loggin</button>-->
+            <br />
+            <label>Codigo Scaneado</label>
+            <h3 id="CodigoBarraDes"></h3>
+
+            <br />
+            <label>Codigo Referencia</label>
+            <input id="CodigoBarraReferencia" />
+            <label>Descripción</label>
+            <br />
+
+            <h3 id="DescripcionLocal1"></h3>
+
+            <br />
+            <label>Estado</label>
+            <input id="Estado" />
+            <label>Tipo</label>
+            <input id="Tipo" />
+            <a href="Realidad.html">Demo</a>
+
+
+
+        </div>
+    </div>
+
+
+
+
+ 
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+
+    
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery-3.3.1.js"></script>
+
+    <script src="scripts/ValidarCodigoBarra.js"></script>
+
+    <script src="scripts/alertify.js"></script>
+    
+
+</body>
+</html>

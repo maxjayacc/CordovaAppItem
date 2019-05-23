@@ -1,0 +1,68 @@
+﻿body {
+    background: #e8edef;
+    background: -webkit-linear-gradient(right, #e8edef, #dee3e8);
+    background: -moz-linear-gradient(right, #e8edef, #dee3e8);
+    background: -o-linear-gradient(right, #e8edef, #dee3e8);
+    background: linear-gradient(to left, #e8edef, #dee3e8);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+button {
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    outline: 2px;
+    background: #808483;
+    width: 80%;
+    border-radius: 10px;
+    padding: 18px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align:left;
+}
+    button:hover, .form button:active, .form button:focus {
+        background-color: #1C91C0;
+    }
+input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #9ef5d5;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+label {
+    color: #404241;
+    padding: 1px 1px;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+    .chip img {
+        float: left;
+        margin: 0 10px 0 -25px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+h4 {
+    color: #404241;
+    padding: 1px 1px;
+}
+img{
+    width:50px;
+    height:50px;
+}
+img:hover {
+    animation:reverse;
+}
